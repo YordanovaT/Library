@@ -9,7 +9,6 @@ Book::Book(std::string book, std::string author)
 {
     book_name=book;
     author_name=author;
-    returned_books=0;
     land=0;
 }
 
@@ -17,14 +16,13 @@ void Book::land_book()
 {
     
     std::cout<<"You have lented: "<<book_name<<"\tby "<<author_name<<std::endl;
-    //int land=1;
     
 }
 
 void Book::return_book()
 {
     
-    std::cout<<"You have returned: "<<book_name<<"l\tby "<<author_name<<std::endl;
+    std::cout<<"You have returned: "<<book_name<<"\tby "<<author_name<<std::endl;
     int land=0;
     
 }

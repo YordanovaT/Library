@@ -7,7 +7,6 @@ class Book
     public:
         std::string book_name;
         std::string author_name;
-        int returned_books;
         int land;
 
         Book();
