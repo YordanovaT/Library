@@ -7,7 +7,7 @@ class Library
 {
     public:
         Reader *readers_arr[50];
-        Book *books[50];
+        Book *books[100];
         int readers_count;
         int books_count;
 

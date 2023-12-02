@@ -16,7 +16,7 @@ void Reader::output_red_books()
 {
     for(int i=0;i<books_red.size();i++)
     {
-        std::cout<<"Book "<<books_red[i]->book_name<<"\tAuthor: "<<books_red[i]->author_name<<std::endl;
+        std::cout<<"Book: "<<books_red[i]->book_name<<"\tAuthor: "<<books_red[i]->author_name<<std::endl;
     }
 }
 

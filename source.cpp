@@ -23,7 +23,7 @@ int main()
         std::cout<<"3. Print reader's books.\n";
         std::cout<<"4. Add new book.\n";
         std::cout<<"5. Delete book.\n";
-        std::cout<<"6. Print all books available.\n";
+        std::cout<<"6. Print all books and availability.\n";
         std::cout<<"7. Land a book.\n";
         std::cout<<"8. Return a book.\n";
         std::cout<<"0. Exit program.\n";
